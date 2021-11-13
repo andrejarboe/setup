@@ -77,6 +77,8 @@ ssh-keygen -C andrejarboe@gmail.com
 
 ##  Link Your SSH Key with GitHub
 
+cat ~/.ssh/id_rsa.pub
+
 Highlight and copy the output, which starts with ssh-rsa and ends with your email address.
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click Add SSH key. You’re done! You’ve successfully added your SSH key!
