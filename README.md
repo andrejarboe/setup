@@ -33,6 +33,9 @@ SPACESHIP_USER_SHOW="true"
 export LS_COLORS="di=34;40:ln=36;40:so=35;40:pi=33;40:ex=32;40:bd=1;33;40:cd=1;33;40:su=0;41:sg=0;43:tw=0;42:ow=34;40:"
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 ## copy terminal settings into windows terminal settings.json 
 
 ## Installing git
