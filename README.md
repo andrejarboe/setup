@@ -93,3 +93,5 @@ Highlight and copy the output, which starts with ssh-rsa and ends with your emai
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click Add SSH key. You’re done! You’ve successfully added your SSH key!
 
 ## Test it
+
+testing
